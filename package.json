@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "start": "ts-node ./src/index.ts",
+    "sync": "ts-node ./src/index.ts",
     "test": "jest --watch",
     "validate": "jest --coverage"
   },
