@@ -55,4 +55,4 @@ workflows:
         - equal: [sync, << pipeline.parameters.task >>]
         - equal: [main, << pipeline.git.branch >>]
     jobs:
-      - test
+      - sync
